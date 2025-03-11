@@ -1,0 +1,64 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body {
+    background: linear-gradient(to bottom, #000428, #24292d);
+    color: #02ffff;
+    height: 100%;   
+    overflow-x: hidden; 
+    padding-top:   Make space for fixed navbar
+}
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    
+}
+
+.project-card {
+    background: linear-gradient(to bottom, #25284a, #2c3a45 );
+    color: white;
+    padding: 20px; 
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+    border:2px solid #02ffff;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+    /* box-shadow: 3px 3px rgb(134, 134, 237), 2px 0 #24292d,  1px; */
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: ;
+    border:2px solid #02ffff;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.project-card p {
+    font-size: 1rem;
+}
